@@ -36,5 +36,11 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+
+    }
 }
 //Entity클래스에선 setter 메소드 안만듬!!!!!

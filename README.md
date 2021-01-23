@@ -31,6 +31,8 @@
 - Request 데이터 받을 Dto
 - API 요청을 받을 Controller
 - 트랜잭션, 도메인 기능 간의 순서를 보장하는 Service
--
+
+- 비즈니스 로직 처리하는 곳 : Domain <br>
 ![다운로드](https://user-images.githubusercontent.com/48319693/105595433-c5ed9b80-5dd6-11eb-8bb3-eff7c480ab71.png)
-    - 비즈니스 로직 처리하는 곳 : Domain
+    
+- f

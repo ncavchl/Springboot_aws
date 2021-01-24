@@ -36,3 +36,5 @@
 ![다운로드](https://user-images.githubusercontent.com/48319693/105595433-c5ed9b80-5dd6-11eb-8bb3-eff7c480ab71.png)
     
 - 도메인 모델 사용- 서비스 메소드는 트랜잭션과 도메인 간의 순서만 보장.
+
+<Java8 부터 LocalDate와 LocalDateTime 제공>

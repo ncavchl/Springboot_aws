@@ -37,4 +37,4 @@
     
 - 도메인 모델 사용- 서비스 메소드는 트랜잭션과 도메인 간의 순서만 보장.
 
-<Java8 부터 LocalDate와 LocalDateTime 제공>
+-<b>Java8 부터 LocalDate와 LocalDateTime 제공</b>

@@ -44,3 +44,7 @@
 2) JPA Auditing으로 생성시간/수정시간 자동화
 - BaseTimeEntity 클래스는 모든 Entity의 상위 클래스가 되어 Entity들의 생성시간, 수정시간을 자동으로 관리함.
 - @EnableJpaAuditing - application클래스에 추가하는 어노테이션 
+
+
+3) Mustache로 화면구성하기 
+- {{>layout/footer}} /templates/layout 폴더 내의 파일을 불러옴 

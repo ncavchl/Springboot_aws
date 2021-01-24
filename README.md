@@ -38,3 +38,8 @@
 - 도메인 모델 사용- 서비스 메소드는 트랜잭션과 도메인 간의 순서만 보장.
 
 -<b>Java8 부터 LocalDate와 LocalDateTime 제공</b>
+
+
+2) JPA Auditing으로 생성시간/수정시간 자동화
+- BaseTimeEntity 클래스는 모든 Entity의 상위 클래스가 되어 Entity들의 생성시간, 수정시간을 자동으로 관리함.
+- @EnableJpaAuditing - application클래스에 추가하는 어노테이션 

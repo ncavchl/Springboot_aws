@@ -1,5 +1,6 @@
 package com.ncavchl.book.springboot.domain.posts;
 
+import com.ncavchl.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     // @Entity -테이블과 링크될 클래스를 나타냄, 기본값으로 클래스 대문자 이름을 _로 테이블 이름 매칭해줌.
     // @id - 테이블 pk(primary key) 나타냄
     // @GeneratedValue - PK 생성규칙, Identity 옵션 - auto_increment

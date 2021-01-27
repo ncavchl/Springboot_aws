@@ -49,4 +49,8 @@
 3) Mustache로 화면구성하기 
 - {{>layout/footer}} /templates/layout 폴더 내의 파일을 불러옴 
 
-20210126
+
+4) 스프링 시큐리티와 OAuth2.0 으로 로그인 기능 구현 
+- build.gradle : compile('org.springframework.boot:spring-boot-starter-oauth2-client');
+- application.properties : spring.profiles.include=oauth
+

@@ -27,7 +27,7 @@
    - 본인 작성 글에 대한 권한 관리
 
 
-
+---
 1) 등록/수정/조회 API 만들기
 - Request 데이터 받을 Dto
 - API 요청을 받을 Controller
@@ -51,6 +51,13 @@
 
 
 4) 스프링 시큐리티와 OAuth2.0 으로 로그인 기능 구현 
-- build.gradle : compile('org.springframework.boot:spring-boot-starter-oauth2-client');
-- application.properties : spring.profiles.include=oauth
+- build.gradle : 
+~~~
+compile('org.springframework.boot:spring-boot-starter-oauth2-client');
+~~~
+- application.properties :
+~~~
+spring.profiles.include=oauth
+~~~
+
 

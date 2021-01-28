@@ -61,10 +61,11 @@ spring.profiles.include=oauth
 ~~~
 
 - p.190 구글 로그인 테스트 오류 
--> application.properties 파일 수정 : application-oauth.properties 파일을 include 하기위해 올바르게 적어야함
+  - application.properties 파일 수정 : application-oauth.properties 파일을 include 하기위해 올바르게 적어야함
+  - application-oauth.properties : 해당 파일에 오타 있었음 ;
+
 ~~~
 spring.profiles.include=oauth
 ~~~
-->application-oauth.properties : 해당 파일에 오타 있었음 ;
-
+   
 

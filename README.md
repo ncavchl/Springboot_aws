@@ -69,3 +69,4 @@ spring.profiles.include=oauth
 ~~~
    
 
+- 구글 로그인 이름, username 불일치

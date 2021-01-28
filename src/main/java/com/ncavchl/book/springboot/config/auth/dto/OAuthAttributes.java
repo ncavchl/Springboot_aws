@@ -1,5 +1,7 @@
 package com.ncavchl.book.springboot.config.auth.dto;
 
+import com.ncavchl.book.springboot.domain.user.Role;
+import com.ncavchl.book.springboot.domain.user.User;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -36,6 +38,15 @@ public class OAuthAttributes {
                 .picture((String) attributes.get("picture"))
                 .attributes(attributes)
                 .nameAttributeKey(userNameAttributeName)
+                .build();
+    }
+
+    public User toEntity() {
+        return User.builder()
+                .name(name)
+                .email(email)
+                .picture(picture)
+                .role(Role.GUEST)
                 .build();
     }
 }

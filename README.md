@@ -64,9 +64,9 @@ spring.profiles.include=oauth
   - application.properties 파일 수정 : application-oauth.properties 파일을 include 하기위해 올바르게 적어야함
   - application-oauth.properties : 해당 파일에 오타 있었음 ;
 
-~~~
-spring.profiles.include=oauth
-~~~
+  ~~~
+  spring.profiles.include=oauth
+  ~~~
    
 
 - 오류📌) 구글 로그인 이름, username 불일치

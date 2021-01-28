@@ -60,7 +60,7 @@ compile('org.springframework.boot:spring-boot-starter-oauth2-client');
 spring.profiles.include=oauth
 ~~~
 
-- p.190 구글 로그인 테스트 오류 
+- 오류📌) p.190 구글 로그인 테스트 
   - application.properties 파일 수정 : application-oauth.properties 파일을 include 하기위해 올바르게 적어야함
   - application-oauth.properties : 해당 파일에 오타 있었음 ;
 
@@ -69,4 +69,11 @@ spring.profiles.include=oauth
 ~~~
    
 
-- 구글 로그인 이름, username 불일치
+- 오류📌) 구글 로그인 이름, username 불일치
+  - index.mustache의 {{#username}} 이름 변경 ex)user 
+  - IndexController username 도 변경 
+  ~~~
+  model.addAttribute("username", user.getName());
+  ~~~
+
+![login_name_mismatch](https://user-images.githubusercontent.com/48319693/106185415-279e7300-61e6-11eb-9292-ad54bcda906c.jpg)

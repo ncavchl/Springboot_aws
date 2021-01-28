@@ -25,7 +25,7 @@ public class IndexController {
         model.addAttribute("posts", postsService.findAllDesc());
         SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if (user != null) {
-            model.addAttribute("userName", user.getName());
+            model.addAttribute("user", user.getName());
         }
         return "index";
         //머스테치덕에 문자열 반환 뒤 확장자는 자동으로 지정됨.

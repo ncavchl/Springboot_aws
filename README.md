@@ -77,3 +77,8 @@ spring.profiles.include=oauth
   ~~~
 
 ![login_name_mismatch](https://user-images.githubusercontent.com/48319693/106185415-279e7300-61e6-11eb-9292-ad54bcda906c.jpg)
+
+
+
+
+5) AWS 서버환경 만들기 - AWS EC2

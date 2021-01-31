@@ -87,4 +87,7 @@ spring.profiles.include=oauth
   - aws pem 파일은 한 번 저장이 끝, 잃어버리지 말기 
   - 고정후 IP 변경을 막기 위해 고정 IP 할당(EIP, 탄력적 IP)
   - window - puttygen 을 이용하여 pem 파일을 ppk로 변환
-  
+  - ec2 서버 접속시 할일 
+    - java 8 설치 
+    - 타임존 한국으로 변경
+    - 호스트네임 변경 

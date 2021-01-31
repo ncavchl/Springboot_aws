@@ -86,4 +86,5 @@ spring.profiles.include=oauth
   - EC2 -> 인스턴스 생성 (amazon linux 2 ami 사용) 1 버전은 종료됨.
   - aws pem 파일은 한 번 저장이 끝, 잃어버리지 말기 
   - 고정후 IP 변경을 막기 위해 고정 IP 할당(EIP, 탄력적 IP)
+  - window - puttygen 을 이용하여 pem 파일을 ppk로 변환
   

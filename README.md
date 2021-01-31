@@ -91,3 +91,6 @@ spring.profiles.include=oauth
     - java 8 설치 
     - 타임존 한국으로 변경
     - 호스트네임 변경 
+
+
+6) AWS DB 환경 만들기 - AWS RDS
